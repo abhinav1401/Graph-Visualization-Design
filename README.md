@@ -2,23 +2,7 @@
 
 
 
-<style type="text/css">
-	table.tableizer-table {
-		font-size: 12px;
-		border: 1px solid #CCC; 
-		font-family: Arial, Helvetica, sans-serif;
-	} 
-	.tableizer-table td {
-		padding: 4px;
-		margin: 3px;
-		border: 1px solid #CCC;
-	}
-	.tableizer-table th {
-		background-color: #104E8B; 
-		color: #FFF;
-		font-weight: bold;
-	}
-</style>
+
 <table class="tableizer-table">
 <thead><tr class="tableizer-firstrow"><th>Air Space Class</th><th>From City</th><th>To City</th><th>Price</th><th>Aircraft Model</th><th>Engine Model</th></tr></thead><tbody>
  <tr><td>B</td><td>Sydeny</td><td>Melbourne</td><td>180</td><td>A330-203</td><td>CF6-80E142</td></tr>
