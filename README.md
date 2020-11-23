@@ -2,8 +2,8 @@
 
 <h3> Tools Used - Power BI and MS Excel </h3>
 
-<img  alt="PowerBI" width="29px" src="https://img.icons8.com/color/48/000000/power-bi.png"/>
-<img  alt="Excel" width="29px" src="https://img.icons8.com/fluent/48/000000/microsoft-excel-2019.png"/>
+<img align="left" alt="PowerBI" width="29px" src="https://img.icons8.com/color/48/000000/power-bi.png"/>
+<img align="left" alt="Excel" width="29px" src="https://img.icons8.com/fluent/48/000000/microsoft-excel-2019.png"/>
 
 <br>
 </br>
@@ -72,7 +72,24 @@ After processing and transforming the data, Directional Node-Link approach is se
 
 It follows the basic properties of the node-link graph, where nodes represent the cities and the links between various node represent the flight path. Node-link approach was most suitable to represent the given data as the given data attributes can be easily represented by nodes and edges. <b>The repo contains .pbix files which can be directly loaded into PowerBI.</b> The transformed data is as follow:
 
-<table class="tableizer-table" size = "8">
+<style type="text/css">
+	table.tableizer-table {
+		font-size: 8px;
+		border: 1px solid #CCC; 
+		font-family: Arial, Helvetica, sans-serif;
+	} 
+	.tableizer-table td {
+		padding: 4px;
+		margin: 3px;
+		border: 1px solid #CCC;
+	}
+	.tableizer-table th {
+		background-color: #104E8B; 
+		color: #FFF;
+		font-weight: bold;
+	}
+</style>
+<table class="tableizer-table">
 <thead><tr class="tableizer-firstrow"><th>Air Space Class</th><th>Class Color</th><th>From City</th><th>Color</th><th>To City</th><th>Price</th><th>Aircraft Model</th><th>Aircraft Model Category</th><th>Engine Model</th></tr></thead><tbody>
  <tr><td>B</td><td>Blue</td><td>Sydeny</td><td>Light Blue</td><td>Melbourne</td><td>180</td><td>A330-203</td><td>category3</td><td>CF6-80E142</td></tr>
  <tr><td>A</td><td>Red</td><td>Sydeny</td><td>Light Blue</td><td>Brisbane</td><td>170</td><td>A330-202</td><td>category2</td><td>CF6-80E142</td></tr>
