@@ -1,6 +1,9 @@
 # Graph-Visualization-Design
 
-<h3> Tools Used - <img align="left" alt="PowerBI" width="29px" src="https://img.icons8.com/color/48/000000/power-bi.png"/> Power BI and MS Excel </h3>
+<h3> Tools Used - Power BI and MS Excel </h3>
+
+<img align="left" alt="PowerBI" width="29px" src="https://img.icons8.com/color/48/000000/power-bi.png"/>
+<img align="left" alt="Excel" width="29px" src="https://img.icons8.com/fluent/48/000000/microsoft-excel-2019.png"/>
 
 The aim of this assignment is to work with the given flight data to process and transform the data in order to design a graph visualization to satisfy a list of specific user’s requirements. In the design, it is required to select an appropriate graph layout method and to create a set of optimized graphical properties that 
 are mapping to a set of data’s domain-specific attributes for better readability and understanding of the relational data structure as well as six data’s attributes. The data given is as follow:
