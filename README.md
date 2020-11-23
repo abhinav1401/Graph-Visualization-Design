@@ -1,5 +1,7 @@
 # Graph-Visualization-Design
 
+<h3> Tools Used - Power BI and MS Excel </h3>
+
 The aim of this assignment is to work with the given flight data to process and transform the data in order to design a graph visualization to satisfy a list of specific user’s requirements. In the design, it is required to select an appropriate graph layout method and to create a set of optimized graphical properties that 
 are mapping to a set of data’s domain-specific attributes for better readability and understanding of the relational data structure as well as six data’s attributes. The data given is as follow:
 
@@ -56,9 +58,13 @@ are mapping to a set of data’s domain-specific attributes for better readabili
  <tr><td>C</td><td>Pt Augusta</td><td>Adelaide</td><td>50</td><td>B717-200</td><td>Unknown</td></tr>
 </tbody></table>
 
+<h3> Solution </h3>
+
 After processing and transforming the data, Directional Node-Link approach is selected as the graph visualization technique to represent the flights' data. Figure below shows the representation of flights data in a graphical manner. 
 
-It follows the basic properties of the node-link graph, where nodes represent the cities and the links between various node represent the flight path. Node-link approach was most suitable to represent the given data as the given data attributes can be easily represented by nodes and edges. Also the transformed data is as follow:
+![alt text](https://github.com/abhinav1401/Graph-Visualization-Design/blob/main/Graph_Final.jpg)
+
+It follows the basic properties of the node-link graph, where nodes represent the cities and the links between various node represent the flight path. Node-link approach was most suitable to represent the given data as the given data attributes can be easily represented by nodes and edges. The repo contains .pbix files which can be directly loaded into PowerBI. The transformed data is as follow:
 
 <table class="tableizer-table">
 <thead><tr class="tableizer-firstrow"><th>Air Space Class</th><th>Class Color</th><th>From City</th><th>Color</th><th>To City</th><th>Price</th><th>Aircraft Model</th><th>Aircraft Model Category</th><th>Engine Model</th></tr></thead><tbody>
