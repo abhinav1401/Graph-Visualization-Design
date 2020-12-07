@@ -70,6 +70,8 @@ After processing and transforming the data, Directional Node-Link approach is se
 
 ![alt text](https://github.com/abhinav1401/Graph-Visualization-Design/blob/main/Graph_Final.jpg)
 
+![alt text](https://github.com/abhinav1401/Graph-Visualization-Design/blob/main/Legend.png)
+
 It follows the basic properties of the node-link graph, where nodes represent the cities and the links between various node represent the flight path. Node-link approach was most suitable to represent the given data as the given data attributes can be easily represented by nodes and edges. <b>The repo contains .pbix files which can be directly loaded into PowerBI.</b> The transformed data is as follow:
 
 
